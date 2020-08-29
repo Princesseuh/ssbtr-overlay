@@ -124,6 +124,10 @@ html, body {
 	left: 22%;
 }
 
+[data-type="teams"]>*:nth-child(2) [data-type="losers"] {
+	left: 60.8%;
+}
+
 [data-type="rounds"] {
 	background-image: linear-gradient(to bottom, #200933 35%, #3d0b43);
     text-shadow: 0 0 2px #100c0f, 0 0 2px #fa09, 0 0 2px #fa09, 0 0 10px #fa09;
