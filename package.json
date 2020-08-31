@@ -20,6 +20,8 @@
   "homepage": "https://github.com/Princesseuh/ssbtr-overlay#readme",
   "devDependencies": {
     "stylelint": "^13.6.1",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0"
   }
 }

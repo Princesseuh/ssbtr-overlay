@@ -1,5 +1,13 @@
 module.exports = {
-    extends: ['stylelint-config-standard'],
+    plugins: [
+        "stylelint-order"
+    ],
+    ignoreFiles: [
+        "./out/*.css"
+    ],
+    extends: [
+        'stylelint-config-standard', 'stylelint-config-idiomatic-order'
+    ],
     rules: {
         indentation: [4, { baseIndentLevel: 1 }],
         'selector-list-comma-newline-after': 'always-multi-line',
